@@ -6,7 +6,7 @@ import initialCards from './cards-data';
 const GameContext = createContext();
 
 // Step 2
-export function GameProvider({ children }) {
+export function CardProvider({ children }) {
 // Step 3
   const [deck, setDeck] = useState(initialCards);
   const [playerOneHand, setPlayerOneHand] = useState([]);
